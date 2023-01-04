@@ -17,6 +17,7 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 15px;
+  width: 30%;
 }
 
 .input-group {
@@ -29,7 +30,7 @@
 }
 
 .form-navbar {
-  width: 50%;
+  width: 40%;
   border: none;
   border-radius: 10px;
   margin-top: 20px;
@@ -38,21 +39,24 @@
   font-size: 15px;
 }
 
+.navbar{
+  background-color: #24292f;
+}
+
  .navbar-section {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
 
-/* .login-registration{
+.login-registration, .loginBtn  {
   align-self: flex-end;
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 2%;
+ }
 
- } */
-
-/* .loginBtn {
-  align-self: flex-end;
-
- }  */
  .buttons{
   
  }
@@ -66,7 +70,7 @@
 }
 
 .movie-section {
-  width: 90%;
+  width: 100%;
   margin: auto;
   background-color: #c9bdff;
   display: flex;
@@ -81,6 +85,11 @@
   font-weight: bold;
   font-size: 42px;
 }
+
+a.loginBtn:hover, a.login-registration:hover {
+  color: yellow;
+}
+
 
 .movie-section-img {
   margin: 20px;
@@ -111,6 +120,7 @@
 .noLink{
   text-decoration: none;
   color: #ffff;
+  padding-top: 25px;
 }
 
 button {

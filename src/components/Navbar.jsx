@@ -1,19 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='navbar-section'>
-      <div className='input-group'> 
+    <div className='navbar'>
+
+      <h1><Link to="/" className='noLink'><p className='noLink'>Movie Base</p></Link></h1>
+
         <input type="text" className='form-navbar' placeholder='Wyszukaj'/>
 
-    {/* <div className='buttons'> */}
-        <button type='button' className='loginBtn'>Zaloguj się</button>
-        <button type='button' className='login-registration'>Zarejestruj się</button>
-    {/* </div> */}
-    </div>
-    </div>
+        <Link to="/addmovie" className='loginBtn'>Dodaj film</Link>
+        <Link to="/login" className='loginBtn'>Zaloguj się</Link>
+        <Link to="/register" className='login-registration'>Zarejestruj się</Link>
 
-  )
+    </div>
+  );
 }
 
 export default Navbar;

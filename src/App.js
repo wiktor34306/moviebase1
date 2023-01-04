@@ -1,6 +1,7 @@
 import './App.css';
+import './components/components.css';
 import Footer from './components/Footer';
-import Logo from './components/Logo';
+// import Logo from './components/Logo';
 import Navbar from './components/Navbar';
 import MovieSection from './components/MovieSection';
 
@@ -42,8 +43,8 @@ function App() {
   return (
 
     <div className="App">
-      <div className='top-side'>
-    <Logo />
+      <div>
+     {/* <Logo />  */}
         <Navbar />
       </div>
       <div className='movie-section-fill'>
