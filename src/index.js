@@ -17,7 +17,7 @@ root.render(
           <Route path='/' element={<App />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Register />} />
-          <Route path='moviedetails' element={<MovieDetails />} />
+          <Route path={'moviedetails/:id'} element={<MovieDetails />} />
           <Route path='addmovie' element={<AddMovie />} />
             </Routes>
     </BrowserRouter>

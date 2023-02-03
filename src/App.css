@@ -57,10 +57,6 @@
   padding-bottom: 2%;
  }
 
- .buttons{
-  
- }
- 
 
 .top-side {
   width: 100%;
@@ -117,6 +113,10 @@ a.loginBtn:hover, a.login-registration:hover {
   
 }
 
+#box {
+  width: 60%;
+}
+
 .noLink{
   text-decoration: none;
   color: #ffff;
@@ -143,4 +143,17 @@ img {
 .card-group {
   display: flex;
   flex-wrap: nowrap;
+}
+
+#buttonStyle {
+  background-color: #24292f;
+  padding: 20px;
+  text-align: center;
+  border-radius: 1cm;
+  text-decoration: none;
+  color: white;
+}
+
+.buttonStyleBack {
+  width: 25%;
 }
